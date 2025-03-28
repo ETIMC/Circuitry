@@ -4123,12 +4123,6 @@
 		(uuid "df1572b1-231b-4197-b981-5144e4478548")
 	)
 	(junction
-		(at 95.25 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e2620f22-c570-47f8-b8fb-9078aae5dae4")
-	)
-	(junction
 		(at 16.51 170.18)
 		(diameter 0)
 		(color 255 0 0 1)
@@ -4504,16 +4498,6 @@
 			(color 0 0 0 1)
 		)
 		(uuid "189dbede-404a-4651-8231-db1082ab88ba")
-	)
-	(wire
-		(pts
-			(xy 71.12 100.33) (xy 71.12 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18b1e9e5-5789-4cf0-b6b5-594b90c41d3d")
 	)
 	(wire
 		(pts
@@ -5458,7 +5442,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 100.33) (xy 95.25 116.84)
+			(xy 95.25 77.47) (xy 95.25 116.84)
 		)
 		(stroke
 			(width 0)
@@ -5808,16 +5792,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 77.47) (xy 95.25 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6da7621-0dcf-4999-81ca-007bfbcd9397")
-	)
-	(wire
-		(pts
 			(xy 76.2 97.79) (xy 76.2 93.98)
 		)
 		(stroke
@@ -5956,16 +5930,6 @@
 			(color 255 0 0 1)
 		)
 		(uuid "d20f3f28-f520-44d1-822e-b170fae1c7df")
-	)
-	(wire
-		(pts
-			(xy 95.25 100.33) (xy 71.12 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2fe901f-8614-4dd5-8fc6-d7d955037c39")
 	)
 	(wire
 		(pts
@@ -6323,6 +6287,28 @@
 		)
 		(uuid "d77235dd-429f-4d82-989a-5efb77f9bc1d")
 	)
+	(global_label "GP22"
+		(shape input)
+		(at 199.39 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "067da321-3b61-4138-ae59-ea96a56a4101")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.3342 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+4.8V"
 		(shape input)
 		(at 271.78 26.67 0)
@@ -6534,6 +6520,28 @@
 		(uuid "984299dd-7321-4a90-a1c1-303b5b8f74f1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 79.5043 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GP22"
+		(shape input)
+		(at 71.12 93.98 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9a883fea-7661-4625-bedc-caa4d0d368ee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.12 101.9242 90)
 			(effects
 				(font
 					(size 1.27 1.27)
