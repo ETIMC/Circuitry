@@ -9326,15 +9326,15 @@
 		(dnp no)
 		(uuid "a0664b67-efdf-4205-aaee-5e7fd3e04240")
 		(property "Reference" "MOS-P1"
-			(at 276.352 46.482 90)
+			(at 275.844 50.292 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "???"
-			(at 276.352 49.022 90)
+		(property "Value" "DMG2305UX-7"
+			(at 275.844 52.832 90)
 			(effects
 				(font
 					(size 1.27 1.27)
