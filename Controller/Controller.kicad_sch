@@ -5044,17 +5044,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 100.33) (xy 227.33 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 132 0 132 1)
-		)
-		(uuid "4633c918-c79f-42fd-87f8-4db20976b475")
-	)
-	(wire
-		(pts
 			(xy 177.8 24.13) (xy 180.34 24.13)
 		)
 		(stroke
@@ -5211,6 +5200,17 @@
 			(color 0 0 0 1)
 		)
 		(uuid "5022eaff-fd78-4f83-8433-f2be6a80d5f2")
+	)
+	(wire
+		(pts
+			(xy 214.63 100.33) (xy 214.63 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 132 0 132 1)
+		)
+		(uuid "51c423b4-06c1-4a17-81bf-04da9563e861")
 	)
 	(wire
 		(pts
@@ -5625,6 +5625,17 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 100.33) (xy 214.63 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 132 0 132 1)
+		)
+		(uuid "84dea25c-0fec-484d-8e7f-5dcf3cd75a57")
+	)
+	(wire
+		(pts
 			(xy 50.8 167.64) (xy 57.15 167.64)
 		)
 		(stroke
@@ -5686,6 +5697,17 @@
 			(color 0 194 0 1)
 		)
 		(uuid "8ea40478-a198-473b-ab57-f104549317c0")
+	)
+	(wire
+		(pts
+			(xy 214.63 110.49) (xy 199.39 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 132 0 132 1)
+		)
+		(uuid "8f08cb18-75d5-4861-84ad-29262575de82")
 	)
 	(wire
 		(pts
@@ -6439,9 +6461,9 @@
 			)
 		)
 	)
-	(global_label "GP27"
+	(global_label "GP20"
 		(shape input)
-		(at 199.39 110.49 0)
+		(at 199.39 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6451,7 +6473,7 @@
 		)
 		(uuid "1d767b4c-9624-47a3-a18c-1049dfa74969")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.3342 110.49 0)
+			(at 207.3342 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6747,7 +6769,7 @@
 			)
 		)
 	)
-	(global_label "GP27"
+	(global_label "GP20"
 		(shape input)
 		(at 247.65 33.02 0)
 		(fields_autoplaced yes)
