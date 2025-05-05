@@ -6,7 +6,7 @@
 	(descr "Through hole straight pin header, 2x20, 2.54mm pitch, double rows")
 	(tags "Through hole pin header THT 2x20 2.54mm double row")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at 0 -1.8 0)
 		(layer "F.SilkS")
 		(uuid "96315415-cfed-47d2-b3dd-d782358bd0df")
 		(effects
@@ -1028,17 +1028,6 @@
 		(effects
 			(font
 				(size 0.8 0.8)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "${REFERENCE}"
-		(at 0 0 180)
-		(layer "F.Fab")
-		(uuid "83184391-76ed-44f0-8cd0-01f89f157bdb")
-		(effects
-			(font
-				(size 1 1)
 				(thickness 0.15)
 			)
 		)
