@@ -5,5 +5,7 @@ This folder contains symbols, footprints and STEP files for components used in t
 ## Controller
 This folder contains the Kicad project for the *Controller* circuit.
 
+![controller schematic](current_schematic.png)
+
 ## Host
 This folder contains the Kicad project for the *Host* circuit.
